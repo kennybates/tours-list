@@ -7,6 +7,7 @@ const url = 'https://course-api.com/react-tours-project'; // url to api for tour
 function App() {
   const [loading, setLoading] = useState(true); // state value for loading
   const [tours, setTours] = useState([]); // state value for tours set to empty array
+ 
 
   // fetch data
   const fetchTours = async () => {
